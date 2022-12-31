@@ -1,7 +1,3 @@
-==== Author ====
-Student name: Chung Lai Ho
-Student ID: 101181150
-
 ==== Description ====
 This is an Emulation of Internet of Things (IOT). There is one controller which is used to control and monitor the sensing results sent from two sensors. The controller checks if the sensing results are over the pre-configured threshold and takes appropriate actions when the results are over the threshold. 
 
