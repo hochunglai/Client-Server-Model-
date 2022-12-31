@@ -1,0 +1,47 @@
+==== Author ====
+Student name: Chung Lai Ho
+Student ID: 101181150
+
+==== Description ====
+This is an Emulation of Internet of Things (IOT). There is one controller which is used to control and monitor the sensing results sent from two sensors. The controller checks if the sensing results are over the pre-configured threshold and takes appropriate actions when the results are over the threshold. 
+
+==== Instructions to Use ====
+First Terminal:
+------------------
+• The Controller does not take in any argument
+• NOTE: Once an instance of a Controller has created, the controller only waits for 15 seconds for devices to make connections
+• NOTE: Please run the rest of the files during the 15 seconds time period
+• Simply enter the command below to run an instance of it 
+./Controller
+
+
+Second Terminal:
+------------------
+• The Cloud does not take in any argument
+• Simply enter the command below to run an instance of it
+./Cloud
+
+
+
+Third Terminal:
+------------------
+• The Actuator takes in one argument which is the type, it can be a switch, bell etc
+• In this case, we will go with switch
+• Enter the command below to run an instance of it 
+./Actuator switch
+
+
+Forth Terminal:
+------------------
+• The Sensor takes in two argument, which is the type and the threshold. Sensor type can be smoke, air quality, temperature, humidity, etc. Sensor threshold should be between 0-50 as the random generater only provide numbers between 0-50
+• In this case, we will go with temperature and with a threshold of 40
+• Enter the command below to run an instance of it 
+./Sensor temperature 40
+
+
+Fifth Terminal:
+------------------
+• The Sensor takes in two argument, which is the type and the threshold. Sensor type can be smoke, air quality, temperature, humidity, etc. Sensor threshold should be between 0-50 as the random generater only provide numbers between 0-50
+• In this case, we will go with humidity and with a threshold of 30
+• Enter the command below to run an instance of it 
+./Sensor humidity 30
